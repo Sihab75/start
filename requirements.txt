@@ -1,0 +1,7 @@
+# Huffman File Compressor - Python dependencies
+#
+# Only one third-party package is required: CustomTkinter, used for the
+# modern GUI theme. Everything else (tkinter, heapq, hashlib, struct,
+# threading, queue, os, time) is part of the Python 3 standard library.
+
+customtkinter>=5.2.0
