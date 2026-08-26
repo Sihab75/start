@@ -1,4 +1,4 @@
-# 🗜 Huffman File Compressor
+# Huffman File Compressor
 
 **Efficient File Compression and Decompression Using Huffman Coding Algorithm**
 
