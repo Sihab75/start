@@ -24,22 +24,22 @@ verify that with a SHA-256 integrity check.
 
 ## 2. Features
 
-- 🗜 **Real Huffman compression** for arbitrary binary files, implemented manually
-- 📦 **Decompression** that reconstructs the file byte-for-byte
-- 🌳 **Live Huffman Tree Visualization** — zoomable / scrollable canvas showing
+-  **Real Huffman compression** for arbitrary binary files, implemented manually
+-  **Decompression** that reconstructs the file byte-for-byte
+-  **Live Huffman Tree Visualization** — zoomable / scrollable canvas showing
   actual nodes, frequencies, and 0/1 edge labels for your file
-- 📋 **Huffman Code Table** — scrollable byte → frequency → code listing
-- 📊 **Statistics dashboard** — compression ratio, space saved, average/max
+-  **Huffman Code Table** — scrollable byte → frequency → code listing
+-  **Statistics dashboard** — compression ratio, space saved, average/max
   code length, unique byte count, processing time, size comparison bar
-- 🎓 **Demo Mode** — type any string (e.g. `ABRACADABRA`) and instantly see
+-  **Demo Mode** — type any string (e.g. `ABRACADABRA`) and instantly see
   its frequencies, tree, and codes — perfect for a live viva demonstration
-- ✅ **SHA-256 integrity verification** between original and restored files
-- 🧵 **Fully responsive GUI** — compression/decompression run on background
+-  **SHA-256 integrity verification** between original and restored files
+- **Fully responsive GUI** — compression/decompression run on background
   threads with a live progress bar, so the interface never freezes
-- 🛡 **Robust error handling** — empty files, single-byte files, corrupted
+- **Robust error handling** — empty files, single-byte files, corrupted
   `.huff` files, permission errors, etc. are all handled gracefully with
   friendly messages (no raw Python tracebacks)
-- 🎨 **Modern dark UI** — sidebar navigation, rounded cards, consistent
+-  **Modern dark UI** — sidebar navigation, rounded cards, consistent
   typography and spacing, hover effects
 
 ---
